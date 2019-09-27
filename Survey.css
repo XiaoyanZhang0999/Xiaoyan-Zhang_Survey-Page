@@ -39,11 +39,7 @@ main {
   top: 80px;
 }
 
-@media (max-width: 400px) {
-  main {
-    top: 65px;
-  }
-}
+
 
 .title-text {
   margin: auto;
@@ -88,7 +84,17 @@ main {
   }
 }
 
+fieldset {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 0;
+  min-width: 100%;
+}
 
+fieldset label:hover {
+  font-weight: bold;
+}
 
 #submit {
   margin: auto;
