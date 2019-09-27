@@ -1,12 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
 
-body {
-  --background-c: hsl(210, 45%, 60%);
-  background-color: var(--background-c, lightgray);
-  display: flex;
-  flex-direction: column;
-  font-family: "Raleway", Helvetica, sans-serif;
-}
 
 @media (max-width: 400px) {
   body {
@@ -14,6 +7,9 @@ body {
   }
 }
 
+h1 {
+  margin-bottom: 5px;
+}
 
 header {
   padding-bottom: 15px;
