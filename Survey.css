@@ -99,3 +99,12 @@ fieldset {
 fieldset label:hover {
   font-weight: bold;
 }
+
+#submit {
+  margin: auto;
+  background-color: var(--background-c, lightgray);
+  border-radius: 8px;
+  padding: 5px 12px 5px 12px;
+  margin-top: 5px;
+  font-size: 85%;
+}
